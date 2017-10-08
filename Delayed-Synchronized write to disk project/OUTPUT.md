@@ -19,10 +19,13 @@
     + user    0m0.048s
     + sys     0m0.020s
     
- + Runtime: 
++ Runtime: 
   + time ./without_sync.out
     + real    0m0.973s
     + user    0m0.012s
     + sys     0m0.960s
+    
+    
++ This test was performed on a 1.5 GB file, created using command: "dd if=/dev/urandom of=fileRead count=3004800". "fileRead" is the name of the file used as input.
 
 
