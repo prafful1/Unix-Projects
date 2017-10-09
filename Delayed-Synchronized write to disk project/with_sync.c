@@ -19,7 +19,6 @@ if ((fd2 = creat("fileWrite", FILE_MODE)) < 0)
         err_sys("creat error");
 
 
-/*int fd2 = open("fileWrite",O_RDONLY|O_CREAT,FILE_MODE);*/
 while ((n = read(fd1, buf, BUFFSIZE)) > 0)
 if (write(fd2, buf, n) != n)
         err_sys("write error");
