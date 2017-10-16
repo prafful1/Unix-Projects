@@ -1,3 +1,5 @@
+// This code is inspired from a mini project in Code Project, a new and updated version will be uploaded by tomorrow. 
+
 #include	<stdio.h>
 #include	<malloc.h>
 #include	<string.h>
